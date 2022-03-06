@@ -11,7 +11,7 @@ const CredentialView = () => {
 
 
         fetch(`/discovery`)
-            // .then(response => response.json())
+            .then(response => response.json())
             .then(data => console.log(data));
       }, []);
 
