@@ -8,8 +8,10 @@ type Param = {
 
 const CredentialView = () => {
     useEffect(() => {
-        fetch('/discovery')
-            .then(response => response.json())
+
+
+        fetch(`/discovery`)
+            // .then(response => response.json())
             .then(data => console.log(data));
       }, []);
 
